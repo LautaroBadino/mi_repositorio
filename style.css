@@ -6,8 +6,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .imagen {
-  width: 700px;
-  margin-left: 7%;
+  width: 65%;
+  padding-left: 4%;
 }
 header {
   background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/3e942957136617.59ca4ef58bc46.png);
@@ -45,7 +45,6 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
-  font-size: xx-large;
 }
 
 .display-2 {
@@ -93,8 +92,6 @@ header {
 }
 .nav__lista {
   color: white;
-  margin-top: 5%;
-  padding: 1%;
   background-color: rgb(114, 114, 114);
 }
 .nav__link1 {
@@ -112,23 +109,24 @@ header {
   font-size: larger;
   margin-left: 5%;
   column-count: 3;
-  column-gap: 150px;
   column-rule: 10px solid rgb(70, 160, 147);
   list-style: none;
 }
 #columnas2 {
+  font-size: 1rem;
   line-height: 150%;
   margin-left: 5%;
+  padding-top: 1%;
   column-count: 2;
-  column-gap: 700px;
-  column-rule: 8px double rgb(145, 140, 140);
+}
+#columnas2 h4 {
+  font-size: 1rem;
 }
 #columnas3 {
   justify-content: center;
   line-height: 150%;
   margin-left: 8%;
   column-count: 2;
-  column-gap: 300px;
 }
 .conteiner {
   padding: 1%;
@@ -243,4 +241,7 @@ header {
     max-width: 100%;
     margin: 0;
   }
+}
+.logonav{
+  width: 40px;
 }
