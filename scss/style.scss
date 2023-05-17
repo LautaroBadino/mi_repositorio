@@ -1,5 +1,7 @@
 $green: rgb(70, 160, 147);
-
+*{
+  text-decoration: none;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -11,14 +13,12 @@ body {
     background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/3e942957136617.59ca4ef58bc46.png);
     background-size: cover;
     background-position-x: right;
-  }
-
+    }
   .nav__link {
     list-style: none;
     text-decoration: none;
     color: white;
   }
-
   .display-3 {
     padding: 2%;
     color: $green;
@@ -28,27 +28,9 @@ body {
     font-size: xx-large;
   }
 
-  .nav__list {
-    background-color: rgb(121, 128, 128);
-    background-image: url(https://lemanoosh.com/app/uploads/Daniel-Lepik-01-2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 5%;
-    list-style: none;
-    text-align: center;
-    font-size: x-large;
-    line-height: 200%;
-  }
+@import "../scss/parciales/navbar.scss"
 
-  .display-1 {
-    padding: 2%;
-    color: rgb(53, 52, 52);
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
-  }
-
+@import "../scss/parciales/body.scss"
   .display-2 {
     color: $green;
     text-decoration: none;

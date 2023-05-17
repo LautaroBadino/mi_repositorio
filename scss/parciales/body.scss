@@ -1,0 +1,24 @@
+#columnas {
+    padding: 1%;
+    line-height: 120%;
+    font-size: larger;
+    margin-left: 5%;
+    column-count: 3;
+    column-rule: 10px solid rgb(70, 160, 147);
+    list-style: none;
+}
+  #columnas3 {
+    justify-content: center;
+    line-height: 150%;
+    margin-left: 8%;
+    column-count: 2;
+  }
+  #columnas4 {
+    column-count: 3;
+    list-style: none;
+    color: rgb(70, 69, 69);
+    text-decoration: none;
+    text-align: center;
+    padding: 1%;
+    font-size: 16px
+  }
